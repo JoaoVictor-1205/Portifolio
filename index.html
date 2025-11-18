@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!--Fim Google Fonts-->
     <!--BOOTSTRAP Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
@@ -14,26 +17,27 @@
     <link rel="stylesheet" href="style.css">
     <title>Portifólio João</title>
 </head>
+
 <body>
     <header>
         <div class="interface">
             <div class="logo">
-                <a href="#">
+                <a href="">
                     <img src="images/5ad0f404-6ec8-4fae-a132-ced9b78bcf36-removebg-preview.png" alt="Logo">
                 </a>
             </div><!--logo-->
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#topo-do-site">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+
                 </ul>
             </nav>
 
             <div class="btn-contato">
-                <a href="">
+                <a href="#formulario">
                     <button>Contato</button>
                 </a>
             </div><!--btn-contato-->
@@ -41,29 +45,30 @@
     </header>
 
     <main>
-        <section class="topo-do-site">
+        <section id="topo-do-site" class="topo-do-site">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
 
                         <h1>Dando Vida ao Código e Personalidade às Ideias<span>.</span></h1>
-                        <p>Cada projeto é uma chance de explorar, aprender e transformar o digital em algo que realmente faça sentido.</p>
-                        
+                        <p>Cada projeto é uma chance de explorar, aprender e transformar o digital em algo que realmente
+                            faça sentido.</p>
+
                         <div class="btn-contato">
-                            <a href="#">
+                            <a href="#formulario">
                                 <button>Entre em contato</button>
                             </a>
                         </div>
                     </div>
 
                     <div class="img-topo-site">
-                            <img src="images/Design sem nome.png" alt="">
+                        <img src="images/Design sem nome.png" alt="">
                     </div>
                 </div>
             </div>
-        </section>    
+        </section>
 
-        <section class="especialidades">
+        <section id="especialidades" class="especialidades">
             <div class="interface">
                 <h2 class="titulo">Minhas <span>Especialidades.</span></h2>
                 <div class="flex">
@@ -71,16 +76,18 @@
                         <i class="bi bi-browser-chrome"></i>
                         <h3>Desenvolvimento Web</h3>
                         <p>
-                            Crio aplicações completas utilizando tecnologias modernas como JavaScript, focando na integração entre front e back-end. 
+                            Crio aplicações completas utilizando tecnologias modernas como JavaScript, focando na
+                            integração entre front e back-end.
                             Busco entregar soluções rápidas, responsivas e bem estruturadas.
                         </p>
-                        
+
                     </div>
                     <div class="especialidades-box">
                         <i class="bi bi-code-square"></i>
                         <h3>Desenvolvimento Back-End</h3>
                         <p>
-                            Desenvolvo lógicas e estruturas que dão vida às aplicações, com foco em performance, segurança e escalabilidade. 
+                            Desenvolvo lógicas e estruturas que dão vida às aplicações, com foco em performance,
+                            segurança e escalabilidade.
                             Gosto de pensar em soluções eficientes que realmente resolvem problemas.
                         </p>
 
@@ -89,8 +96,10 @@
                         <i class="bi bi-database"></i>
                         <h3>Banco de Dados</h3>
                         <p>
-                            Planejo e implemento bancos de dados eficientes, com atenção à integridade e à otimização das consultas. 
-                            Acredito que uma boa arquitetura de dados é essencial para a estabilidade e o crescimento de um sistema.
+                            Planejo e implemento bancos de dados eficientes, com atenção à integridade e à otimização
+                            das consultas.
+                            Acredito que uma boa arquitetura de dados é essencial para a estabilidade e o crescimento de
+                            um sistema.
                         </p>
 
                     </div>
@@ -98,42 +107,81 @@
             </div>
         </section>
 
-        <section class="sobre">
+        <section id="sobre" class="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
                         <img src="images/Imagem do WhatsApp de 2025-11-17 à(s) 18.40.34_5878cc25.jpg" alt="">
                     </div>
-                    
+
                     <div class="txt-sobre">
                         <h2>Muito Prazer, <span>Sou João Victor.</span></h2>
-                        <p>Cursando Engenharia de Software e com formação técnica em Desenvolvimento de Sistemas, 
-                            sou um profissional em início de carreira apaixonado por usar a tecnologia para criar soluções e resolver problemas. 
-                            Minha jornada acadêmica tem sido focada no desenvolvimento back-end, onde venho aprofundando meus conhecimentos práticos em Python, C# e JavaScript através de cursos e projetos na Udemy.</p>
-                        <p>Além das minhas competências técnicas, possuo inglês em nível intermediário (e pretendo continuar os estudos para alcançar a fluência) 
-                            e domínio das ferramentas do pacote Office. Sou uma pessoa proativa, com grande capacidade de aprendizado e total disposição para aprender novas linguagens e tecnologias, 
-                            buscando sempre me adaptar às necessidades dos projetos.</p>
-                    
-                            <div class="btn-social">
-                                <a href="https://www.linkedin.com/in/joãovictordossantosdemorais" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
-                                <a href="mailto:morais120506@gmail.com" target="_blank"><button><i class="bi bi-envelope"></i></button></a>
-                                <a href="https://github.com/JoaoVictor-1205" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        <p>Cursando Engenharia de Software e com formação técnica em Desenvolvimento de Sistemas,
+                            sou um profissional em início de carreira apaixonado por usar a tecnologia para criar
+                            soluções e resolver problemas.
+                            Minha jornada acadêmica tem sido focada no desenvolvimento back-end, onde venho aprofundando
+                            meus conhecimentos práticos em Python, C# e JavaScript através de cursos e projetos na
+                            Udemy.
+                        </p>
+                        <p>Além das minhas competências técnicas, possuo inglês em nível intermediário (e pretendo
+                            continuar os estudos para alcançar a fluência)
+                            e domínio das ferramentas do pacote Office. Sou uma pessoa proativa, com grande capacidade
+                            de aprendizado e total disposição para aprender novas linguagens e tecnologias,
+                            buscando sempre me adaptar às necessidades dos projetos.
+                        </p>
 
-                            </div>
+                        <div class="btn-social">
+                            <a href="https://www.linkedin.com/in/joãovictordossantosdemorais" target="_blank"><button><i
+                                        class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/JoaoVictor-1205" target="_blank"><button><i
+                                        class="bi bi-github"></i></button></a>
+                            <a href="mailto:morais120506@gmail.com" target="_blank"><button><i
+                                        class="bi bi-envelope"></i></button></a>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="formulario"></section>
-        <div class="interface">
-            <h2 class="titulo">Fala <span>Comigo.</span></h2>
+        <section id="formulario" class="formulario">
+            <div class="interface">
+                <h2 class="titulo">Fala <span>Comigo.</span></h2>
 
-            <form action="">
-                
-            </form>
-        </div>
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem:"></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div>
+        </section>
+
     </main>
 
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/5ad0f404-6ec8-4fae-a132-ced9b78bcf36-removebg-preview.png" alt="">
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://www.linkedin.com/in/joãovictordossantosdemorais" target="_blank"><button><i
+                                    class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/JoaoVictor-1205" target="_blank"><button><i
+                                    class="bi bi-github"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope"> <a href="mailto:morais120506@gmail.com"
+                            target="_blank">morais120506@gmail.com</a></i></p>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
