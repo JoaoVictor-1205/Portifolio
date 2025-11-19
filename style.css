@@ -31,7 +31,7 @@ body{
     cursor: pointer;
 }
 
-button:hover, form .btn-enviar input:hover{
+button:hover, form .btn-enviar input:hover, form .btn-enviar button:hover{
     box-shadow: 0px 0px 8px rgb(97, 97, 255);
     transform: scale(1.05);
     transition: .2S;
@@ -272,13 +272,20 @@ form .btn-enviar{
     text-align: center;
 }
 
-form .btn-enviar input[type=submit]{
+form .btn-enviar input[type=submit],
+form .btn-enviar button,
+form button[type=submit] {
     width: 120px;
     background-color: #0066ff;
     color: #000;
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
+    border: 0;
+    padding: 12px 20px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto 0;
 }
 
 form textarea::placeholder{
