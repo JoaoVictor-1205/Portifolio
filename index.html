@@ -148,12 +148,20 @@
             <div class="interface">
                 <h2 class="titulo">Fala <span>Comigo.</span></h2>
 
-                    <form action="form.php" method="post">
+                    <form action="https://formspree.io/f/mrbjlayv" method="POST">
                         <input type="text" name="nome" id="nome" placeholder="Seu nome:" required>
                         <input type="email" name="email" id="email" placeholder="Seu e-mail:" required>
                         <input type="text" name="celular" id="celular" placeholder="Seu celular:">
                         <textarea name="mensagem" id="mensagem" placeholder="Sua mensagem:" required></textarea>
-                        <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+
+                        <!-- Opcional: assunto do e-mail -->
+                        <input type="hidden" name="_subject" value="Contato pelo site - João Victor">
+
+                        <!-- Opcional: redirecionar após envio (coloque sua URL do Github Pages) -->
+                        <input type="hidden" name="_next" value="https://SEU_USUARIO.github.io/Portifolio/index.html?status=success#formulario">
+
+                        <!-- Opcional: evitar ver o usuário ver resposta em nova página -->
+                        <button type="submit">ENVIAR</button>
                     </form>
             </div>
         </section>
